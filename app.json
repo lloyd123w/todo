@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Nanan's Todo List",
-    "slug": "nanan_todolist",
+    "name": "lloydtodolist",
+    "slug": "lloydtodolist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/todoicon.png",
@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.reynaaan.nanan_todolist"
+      "package": "com.lloyd123w.lloydtodolist"
     },
     "web": {
       "favicon": "./assets/favicon.png"

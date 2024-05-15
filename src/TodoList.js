@@ -68,7 +68,7 @@ const TodoList = () => {
                   style={styles.input}
                 />
                 <TouchableOpacity onPress={() => handleUpdate(item.id)}>
-                  <FontAwesome5 name="check" size={24} color="#00bfa5" />
+                  <FontAwesome5 name="check" size={24} color="#004927" />
                 </TouchableOpacity>
               </View>
             ) : (
@@ -76,11 +76,11 @@ const TodoList = () => {
                 <Text style={styles.text}>{item.text}</Text>
                 <View style={styles.buttonContainer}>
                   <TouchableOpacity onPress={() => handleStartEdit(item.id, item.text)}>
-                    <FontAwesome5 name="pencil-alt" size={24} color="#004927" />
+                    <FontAwesome5 name="pencil-alt" size={20} color="#004927" />
                   </TouchableOpacity>
                   <View style={styles.buttonSpacer} />
                   <TouchableOpacity onPress={() => handleDelete(item.id)}>
-                    <FontAwesome5 name="trash-alt" size={24} color="#d32f2f" />
+                    <FontAwesome5 name="trash-alt" size={20} color="#d32f2f" />
                   </TouchableOpacity>
                 </View>
               </View>
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#071D0E',
+    backgroundColor: '#FFFFFF', // Light background for minimalist look
   },
   inputContainer: {
     flexDirection: 'row',
@@ -105,29 +105,30 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    marginRight: 16,
-    padding: 8,
-    backgroundColor: '#004927',
-    borderRadius: 20,
+    marginRight: 8, // Slightly reduced margin
+    padding: 10, // Consistent padding
+    backgroundColor: '#F0F0F0', // Light gray background
+    borderRadius: 8, // Slightly rounded corners
     paddingHorizontal: 16,
     fontSize: 16,
-    color: '#FFFFFF',
+    color: '#333333', // Dark gray text
     borderWidth: 1,
-    borderColor: '#BDBDBD',
+    borderColor: '#E0E0E0', // Light border color
   },
   header: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: '500', // Medium font weight
     marginBottom: 16,
-    color: '#FFFFFF',
+    color: '#333333', // Dark gray text
+    textAlign: 'center', // Centered text
   },
   itemContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: 10,
-    backgroundColor: '#FFFFFF',
-    elevation: 2,
+    backgroundColor: '#F9F9F9', // Light background for list items
+    elevation: 1, // Subtle shadow for depth
     borderRadius: 8,
     marginVertical: 5,
   },
@@ -144,13 +145,13 @@ const styles = StyleSheet.create({
   text: {
     flex: 1,
     fontSize: 16,
-    color: '#212121',
+    color: '#333333', // Dark gray text
   },
   buttonContainer: {
     flexDirection: 'row',
   },
   buttonSpacer: {
-    width: 20,
+    width: 16, // Consistent spacing between buttons
   },
 });
 
