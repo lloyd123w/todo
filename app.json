@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Nanan's Todo List",
+    "slug": "nanan_todolist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/todoicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reynaaan.nanan_todolist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9663662-3103-4f81-8c32-9c9281b10666"
+      }
+    }
+  }
+}
