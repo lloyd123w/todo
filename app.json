@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "lloydtodolist",
-    "slug": "lloydtodolist",
+    "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/todoicon.png",
